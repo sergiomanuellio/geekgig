@@ -1,0 +1,110 @@
+/* 
+    Author     : Lio, Sergio M.
+    Description: External style sheet for customizing bootstrap css
+*/
+html *
+{
+   font-family: Helvetica !important;
+}
+body{
+    background-color: #f0f0f0;
+}
+#top_bar{
+    background-color: #333;
+    height: 65px;
+    color: #fff;
+    width: 100%;
+}
+#web_name{
+    font-size: 28px;
+    color: #fff;
+    padding-left: 70px;
+}
+#right_menu{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 8px;
+    padding-right: 70px;
+}
+#top-links a:hover{
+    background-color: #000;
+}
+#jumbotron{
+    background-color: #fff;
+    border-radius: 0px;
+    margin: 0px auto;
+    width: 1000px;
+    padding: 5px 15px 15px 15px;
+    border: 1px solid #ccc;
+}
+#product_name{
+    font-size: 36px;
+    color: #333;
+}
+#product_pic{
+    background-color: #ccc;
+    width: 250px;
+    height: 350px;
+}
+#product_desc{
+    text-align: left;
+    width: 500px;
+    height: auto;
+    margin-right: 180px;
+}
+#box_thumb{
+    background-color: #ccc;
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+#choices1{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #c4df9d;
+}
+#choices2{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #f9ad81;
+}
+
+#jumbotro1{
+    background-color: #fff;
+    border-radius: 0px;
+    margin: 0px 70px;
+    width: 680px;
+    padding: 15px 15px 15px 15px;
+    border: 1px solid #ccc;
+}
+#product_pic1{
+    background-color: #ccc;
+    width: 250px;
+    height: 350px;
+    margin: 0px 70px;
+}
+#user_thumb{
+    background-color: #ccc;
+    width: 80px;
+    height: 80px;
+}
+#user_name{
+    margin-right: 430px;
+}
+#people_name{
+    color: #333;
+    font-size: 24px;
+}
+#date_posted{
+    color: #ccc;
+    font-size: 16px;
+}
+#comment_body{
+    padding: 10px 15px 15px 0px;
+    font-size: 16px;
+    color: #333;
+}
